@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowgorithm even num"/>
+        <attribute name="authors" value="donda"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 02:33:59 PM"/>
+        <attribute name="created" value="ZG9uZGE7REVTS1RPUC1EMUtFNDY1OzIwMjYtMDEtMDY7MDI6MDM6MTggUE07Mjc5Ng=="/>
+        <attribute name="edited" value="ZG9uZGE7REVTS1RPUC1EMUtFNDY1OzIwMjYtMDEtMDY7MDI6MzM6NTkgUE07MzsyOTE0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fahren" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <assign variable="c" expression="35"/>
+            <assign variable="fahren" expression="(9/5*c)+32"/>
+            <output expression="&quot;the fahrenheit of 35 degree celcious is&quot; &amp;fahren" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
